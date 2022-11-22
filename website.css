@@ -54,7 +54,9 @@ body {
     color: #FFF;
     text-decoration: none;
     padding: 10px 20px;
-    border: 3px solid #FFF;
+    transition-property: color;
+    transition-duration: 2s;
+    
 }
 .navs a:hover{
 
@@ -95,3 +97,15 @@ header {
     background-color: darkorange;
     color: #FFF;
 }
+
+.banner-des {
+    position: absolute;
+    top: 50px;
+     left: 100px;
+        }
+        
+.thisimg {
+        
+        
+        
+        }
