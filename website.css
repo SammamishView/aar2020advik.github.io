@@ -93,8 +93,12 @@ header {
     width: 100%;
     position: relative;
 }       
-        
-.slideword {
+ 
+.slide img {
+    display: block;  
+}        
+               
+.slide-text {
         position: absolute;
         bottom: 0;
         background-color: rgba(0, 0, 0, .7);
@@ -104,6 +108,5 @@ header {
         box-sizing: border-box;
 }
 .slide img {
-    display: block;
-    
+    display: block;  
 }
