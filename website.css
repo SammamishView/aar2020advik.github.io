@@ -101,11 +101,9 @@ header {
 .banner-des {
     position: absolute;
     top: 50px;
-     left: 100px;
+     left: 50px;
         }
         
 .thisimg {
-        
-        
-        
+        position: relative; 
         }
