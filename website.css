@@ -88,7 +88,10 @@ header {
     background-image: url(../Images/us.jpg;
 }
 
-
+.cycle-slideshow {
+        margin-bottom: 30px;
+}
+        
 .slide {
     width: 100%;
     position: relative;
@@ -107,6 +110,8 @@ header {
         padding: 20px;
         box-sizing: border-box;
 }
-.slide img {
-    display: block;  
+
+.slide-text h3 {
+    margin: 0;
+    
 }
