@@ -173,4 +173,22 @@ header {
     color: #365267
 }
 
-.toggle-btn-visible{
+
+.toggle-btn {
+    
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .toggle-btn-visible {
+    display: block;
+}
+
+.toggle-target-hidden {
+    display: none;
+}
+
+.toggle-target-expanded {
+    display: block;
+}
+}
