@@ -201,3 +201,32 @@ header {
     display: block;
 }
 }
+
+.thumb {
+    margin-right: -15px;
+}
+
+.thumb a {
+    float: left;
+    width: 25%;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    border-sizing: border-box;
+    
+}
+
+.thumb img {
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+.thumb:hover img {
+    opacity: .6;
+    transform: scale(.92);
+}
+
+.thumb img:hover {
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
